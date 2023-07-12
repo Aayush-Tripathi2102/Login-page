@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(67, 67, 67);
+}
+
+.logo{
+    height: 100px;
+}
+
+.main-header{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 0 0 10px rgb(27, 27, 27);
+
+}
+
+.main-header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4.7rem;
+    margin-top: 0px;
+    margin: 0px;
+    color: yellow;
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(128, 255, 0);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.mandatory{
+    color: rgb(0, 234, 255);
+    text-align: right;
+    padding-right: 40px;
+    font-family: "Raleway";
+    font-weight: lighter;
+    font-size: 1.2rem;
+    text-shadow: lime;
+
+    
+}
+
+.form-group{
+    margin-top: 35px;
+    font-family: "Raleway";
+    font-size: 1.8rem;
+}
+
+.input-item{
+    margin-right: 15px;
+    color: aquamarine;
+}
+
+.input-box{
+    margin-right: 15px;
+    color: rgb(57, 55, 55);
+    font-size: 1.2rem;
+    padding: 5px;
+    width: 70%;
+    border-radius: 30px;
+    border: 1px solid lime;
+    -webkit-transition: box-shadow linear .5s;
+    transition: box-shadow linear .2s;
+}
+
+.input-box:focus{
+    outline: none;
+    box-shadow: 0 0 20px lime;
+}
+
+.main-body{
+    margin: 46px 350px;
+    padding-bottom: 7px;
+    padding-top: 10px;
+    border: 1px solid lime;
+    box-shadow: 0 0 10px rgb(28, 176, 28);
+    border-radius: 50px;
+}
+
+.foot{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: wheat;
+    background-color: rgb(38, 38, 38);
+    box-shadow: 0 0 10px rgb(27, 27, 27);
+
+}
+
+.btn{
+    font-family: "Raleway";
+    font-weight: bold;
+    margin-top: 0px;
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    color: rgb(255, 0, 255);
+    border: 1px solid rgb(225, 0, 225);
+    border-radius: 40px;
+    background-color: purple;
+    margin-left: 300px;
+}
+
+.btn:hover{
+    color: rgb(255, 158, 255);
+    border: 1px solid rgb(225, 158, 225);
+    border-radius: 40px;
+    background-color: rgb(99, 0, 99);
+    cursor: pointer;
+}
+
+.butt{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
